@@ -2,6 +2,7 @@
 import React, {useState} from "react";
 import styled from "styled-components";
 import Card from "./Card.jsx";
+import "../../App.css";
 
 //import images
 import Pastel4 from "./img/cestinha_4pasteis.png";
@@ -10,12 +11,13 @@ import Caldo from "./img/caldodecana.png";
 import Coca from "./img/coca.png";
 import Drink from "./img/drink.png";
 import Laranja from "./img/laranja.png";
-import Morango from "./img/morango.png"
-import Carrinho from "./img/carrinho.png"
-import CarrinhoPag from "./img/carrinhopag.png"
-import Menos from "./img/menos.png"
-import Mais from "./img/mais.png"
-import Lixeirinha from "./img/delete.png"
+import Morango from "./img/morango.png";
+import Carrinho from "./img/carrinho.png";
+import CarrinhoPag from "./img/carrinhopag.png";
+import Menos from "./img/menos.png";
+import Mais from "./img/mais.png";
+import Lixeirinha from "./img/delete.png";
+
 
 
 export default function Main(){

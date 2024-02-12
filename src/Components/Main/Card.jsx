@@ -1,8 +1,14 @@
 import React, { useState } from "react";
+import Styled from "styled-components"
 import Menos from "../Main/img/menos.png"
 import Mais from "../Main/img/mais.png"
 import Carrinho from "../Main/img/carrinho.png"
-import Pastel4 from "../Main/img/cestinha_4pasteis.png"
+
+//styled-components
+
+const Img = styled.img
+`width: 200px;
+`;
 
 
 export default function Card({title, image, alt}) {
